@@ -1,0 +1,1781 @@
+{"timestamp":"2021-06-15 11:37:03", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.10 on DESKTOP-UQEV9B2 with PID 3508 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 11:37:03", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 11:37:04", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 11:37:04", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 11:37:04", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @3354ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.10+9-b1341.41}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1626 ms}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@66c9b52f{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.16623029856658005111/],AVAILABLE}}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @3864ms}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 11:37:05", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 11:37:06", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 11:37:06", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 11:37:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 11:37:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 11:37:08", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 11:37:08", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 11:37:08", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2af31aba}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@47400608}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@72503b19{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 6.456 seconds (JVM running for 8.084)}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 11:37:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 11:37:24", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 11:37:24", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 11:37:25", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 11:37:25", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Writing [85]}
+{"timestamp":"2021-06-15 11:37:25", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 17:10:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 6836 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 17:10:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 17:10:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 17:10:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 17:10:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @2408ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1275 ms}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 660000ms}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@72906e{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.6696121115107464514/],AVAILABLE}}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2777ms}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 17:10:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 17:10:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 17:10:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 17:10:12", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 17:10:12", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 17:10:12", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@576a8b00}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@7091a016}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 2 ms}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@76130a29{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.996 seconds (JVM running for 6.008)}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 17:10:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 17:10:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 11928 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 17:10:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 17:10:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 17:10:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 17:10:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1940ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1176 ms}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@494c8f29{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.16650524892815727917/],AVAILABLE}}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2281ms}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 17:10:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 17:10:31", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 17:10:31", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 17:10:31", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 17:10:31", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:10:31", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 17:10:31", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 17:10:31", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2f8b48c3}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@6bec566e}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@7d979d34{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.766 seconds (JVM running for 5.361)}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 17:10:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 17:11:33", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 17:11:33", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 17:11:34", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"DEBUG", "meta":Failed to complete request: java.lang.StringIndexOutOfBoundsException: begin 0, end 20, length 8}
+{"timestamp":"2021-06-15 17:11:34", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"WARN", "meta":/cargaCep}
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.StringIndexOutOfBoundsException: begin 0, end 20, length 8
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:497)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:882)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1036)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 0, end 20, length 8
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at CepRuasService.popularCepsRuas(CepRuasService.java:44)
+	at CarcaCepController.findAll(CarcaCepController.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 47 common frames omitted
+{"timestamp":"2021-06-15 17:11:34", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"DEBUG", "meta":"ERROR" dispatch for GET "/error", parameters={}}
+{"timestamp":"2021-06-15 17:11:34", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"DEBUG", "meta":Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)}
+{"timestamp":"2021-06-15 17:11:34", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 17:11:34", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"DEBUG", "meta":Writing [{timestamp=Tue Jun 15 17:11:34 BRT 2021, status=500, error=Internal Server Error, path=/cargaCep}]}
+{"timestamp":"2021-06-15 17:11:34", "service":"cargacep", "thread":"[qtp1495454697-36]",
+                "level":"DEBUG", "meta":Exiting from "ERROR" dispatch, status 500}
+{"timestamp":"2021-06-15 17:14:06", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 13724 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 17:14:06", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 17:14:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 17:14:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 17:14:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @2064ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 17:14:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 17:14:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 17:14:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 17:14:07", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1264 ms}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@494c8f29{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.6752814194754628640/],AVAILABLE}}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2429ms}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 17:14:08", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 17:14:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 17:14:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 17:14:10", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 17:14:10", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:14:10", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 17:14:10", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 17:14:10", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@17b387ef}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@712594f4}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 2 ms}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@7d979d34{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.976 seconds (JVM running for 5.593)}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 17:14:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 17:14:32", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 17:14:32", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 17:31:52", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"DEBUG", "meta":Failed to complete request: org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space}
+{"timestamp":"2021-06-15 17:31:52", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"WARN", "meta":/cargaCep}
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.OutOfMemoryError: Java heap space
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:497)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:882)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1036)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.lang.StringLatin1.toLowerCase(StringLatin1.java:408)
+	at java.base/java.lang.String.toLowerCase(String.java:2503)
+	at CepRuasService.descobrirTipoDeLogradouroAbreviado(CepRuasService.java:61)
+	at CepRuasService.popularCepsRuas(CepRuasService.java:49)
+	at CarcaCepController.findAll(CarcaCepController.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:497)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+{"timestamp":"2021-06-15 17:31:52", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"DEBUG", "meta":"ERROR" dispatch for GET "/error", parameters={}}
+{"timestamp":"2021-06-15 17:31:52", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"DEBUG", "meta":Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)}
+{"timestamp":"2021-06-15 17:31:52", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 17:31:52", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"DEBUG", "meta":Writing [{timestamp=Tue Jun 15 17:31:52 BRT 2021, status=500, error=Internal Server Error, path=/cargaCep}]}
+{"timestamp":"2021-06-15 17:31:52", "service":"cargacep", "thread":"[qtp1495454697-37]",
+                "level":"DEBUG", "meta":Exiting from "ERROR" dispatch, status 500}
+{"timestamp":"2021-06-15 17:34:40", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 10808 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 17:34:40", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 17:34:40", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 17:34:40", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1954ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1226 ms}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 660000ms}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6d672bd4{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.13873639805815356975/],AVAILABLE}}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2312ms}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 17:34:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 17:34:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 17:34:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 17:34:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 17:34:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 17:34:43", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 17:34:43", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@33197c2f}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@37a14aa1}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@5fef2aac{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.65 seconds (JVM running for 5.229)}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 17:34:44", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 17:35:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 18312 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 17:35:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 17:35:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 17:35:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 17:35:29", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1885ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1145 ms}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2a02e34b{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.7291534865101731202/],AVAILABLE}}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2218ms}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 17:35:30", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 17:35:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 17:35:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 17:35:32", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 17:35:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:35:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 17:35:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 17:35:32", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2e51ede1}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@e5f05f8}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@286090c{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.608 seconds (JVM running for 5.181)}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 17:35:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 17:35:36", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 17:35:36", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 17:35:37", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 17:35:37", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 17:35:37", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 17:37:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 19984 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 17:37:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 17:37:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 17:37:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 17:37:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1916ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 17:37:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 17:37:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 17:37:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 17:37:42", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1187 ms}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@72906e{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.12267964375856970785/],AVAILABLE}}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2260ms}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 17:37:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 17:37:45", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 17:37:45", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 17:37:45", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 17:37:45", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:37:45", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 17:37:45", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 17:37:45", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7369208e}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@7cb38a6a}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@76130a29{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.776 seconds (JVM running for 5.337)}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 17:37:46", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 17:37:52", "service":"cargacep", "thread":"[qtp1591505133-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 17:37:52", "service":"cargacep", "thread":"[qtp1591505133-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 17:37:54", "service":"cargacep", "thread":"[qtp1591505133-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 17:37:54", "service":"cargacep", "thread":"[qtp1591505133-37]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 17:37:54", "service":"cargacep", "thread":"[qtp1591505133-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 17:41:31", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 3240 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 17:41:31", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 17:41:31", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 17:41:31", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 17:41:31", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1910ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1169 ms}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 660000ms}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@73041b7d{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.1264378252591183769/],AVAILABLE}}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2250ms}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 17:41:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 17:41:34", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 17:41:34", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 17:41:34", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 17:41:34", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:41:34", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 17:41:34", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 17:41:34", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@99af41d}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@f391e52}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@34b87182{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.59 seconds (JVM running for 5.155)}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 17:41:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 17:41:41", "service":"cargacep", "thread":"[qtp2121443020-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 17:41:41", "service":"cargacep", "thread":"[qtp2121443020-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 17:43:24", "service":"cargacep", "thread":"[HikariPool-1 housekeeper]",
+                "level":"WARN", "meta":HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s50ms286µs).}
+{"timestamp":"2021-06-15 17:43:24", "service":"cargacep", "thread":"[qtp2121443020-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 17:43:24", "service":"cargacep", "thread":"[qtp2121443020-37]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 17:43:24", "service":"cargacep", "thread":"[qtp2121443020-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 17:57:16", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 14872 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 17:57:16", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 17:57:16", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 17:57:16", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1929ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1193 ms}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6d672bd4{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.918587653413737912/],AVAILABLE}}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2267ms}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 17:57:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 17:57:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 17:57:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 17:57:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 17:57:19", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 17:57:19", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 17:57:19", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@10f384a2}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@7bbe852a}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 2 ms}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@5fef2aac{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.73 seconds (JVM running for 5.301)}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 17:57:20", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 17:57:31", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 17:57:31", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 17:57:32", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"DEBUG", "meta":Failed to complete request: java.lang.ClassCastException: class org.springframework.data.domain.PageImpl cannot be cast to class java.util.List (org.springframework.data.domain.PageImpl is in unnamed module of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')}
+{"timestamp":"2021-06-15 17:57:32", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"WARN", "meta":/cargaCep}
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.ClassCastException: class org.springframework.data.domain.PageImpl cannot be cast to class java.util.List (org.springframework.data.domain.PageImpl is in unnamed module of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:497)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:882)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1036)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassCastException: class org.springframework.data.domain.PageImpl cannot be cast to class java.util.List (org.springframework.data.domain.PageImpl is in unnamed module of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')
+	at CarcaCepController$1.fetch(CarcaCepController.java:47)
+	at PageableIterator.tryToFetchMoreData(PageableIterator.java:37)
+	at PageableIterator.hasNext(PageableIterator.java:32)
+	at CepRuasService.popularCepsRuas(CepRuasService.java:26)
+	at CarcaCepController.findAll(CarcaCepController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 47 common frames omitted
+{"timestamp":"2021-06-15 17:57:32", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"DEBUG", "meta":"ERROR" dispatch for GET "/error", parameters={}}
+{"timestamp":"2021-06-15 17:57:32", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"DEBUG", "meta":Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)}
+{"timestamp":"2021-06-15 17:57:32", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 17:57:32", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"DEBUG", "meta":Writing [{timestamp=Tue Jun 15 17:57:32 BRT 2021, status=500, error=Internal Server Error, path=/cargaCep}]}
+{"timestamp":"2021-06-15 17:57:32", "service":"cargacep", "thread":"[qtp1638631856-37]",
+                "level":"DEBUG", "meta":Exiting from "ERROR" dispatch, status 500}
+{"timestamp":"2021-06-15 18:00:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 8868 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 18:00:32", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1909ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1193 ms}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 660000ms}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@5eb5da12{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.17301613955183998412/],AVAILABLE}}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2246ms}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 18:00:33", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 18:00:34", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 18:00:34", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 18:00:34", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 18:00:34", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 18:00:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 18:00:35", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 18:00:35", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24fc9aa5}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@3182143c}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 2 ms}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@72503b19{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.51 seconds (JVM running for 5.068)}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 18:00:36", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 18:00:39", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 18:00:39", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 18:01:45", "service":"cargacep", "thread":"[HikariPool-1 housekeeper]",
+                "level":"WARN", "meta":HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s238ms10µs600ns).}
+{"timestamp":"2021-06-15 18:02:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 7024 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 18:02:13", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 18:02:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 18:02:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 18:02:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1958ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1214 ms}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7792d851{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.4048790624260749266/],AVAILABLE}}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2309ms}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 18:02:15", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 18:02:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 18:02:17", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 18:02:17", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 18:02:17", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:02:17", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 18:02:17", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 18:02:17", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24e79a4d}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@6ac4f31d}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@3458eca5{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.668 seconds (JVM running for 5.235)}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 18:02:18", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 18:02:22", "service":"cargacep", "thread":"[qtp1167813715-36]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 18:02:22", "service":"cargacep", "thread":"[qtp1167813715-36]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 18:02:29", "service":"cargacep", "thread":"[qtp1167813715-36]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 18:02:29", "service":"cargacep", "thread":"[qtp1167813715-36]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 18:02:29", "service":"cargacep", "thread":"[qtp1167813715-36]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 18:08:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 13836 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 18:08:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1932ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1202 ms}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 660000ms}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2001e48c{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.15455331236536593664/],AVAILABLE}}
+{"timestamp":"2021-06-15 18:08:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2275ms}
+{"timestamp":"2021-06-15 18:08:26", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 18:08:26", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 18:08:26", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 18:08:26", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 18:08:26", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 18:08:26", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 18:08:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 18:08:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@360d3f47}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@c19bb2a}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@7be2f29a{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.659 seconds (JVM running for 5.231)}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 18:08:28", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 18:08:32", "service":"cargacep", "thread":"[qtp1148735023-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 18:08:32", "service":"cargacep", "thread":"[qtp1148735023-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 18:08:33", "service":"cargacep", "thread":"[qtp1148735023-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 18:08:33", "service":"cargacep", "thread":"[qtp1148735023-37]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 18:08:33", "service":"cargacep", "thread":"[qtp1148735023-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 18:09:23", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 14128 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 18:09:23", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 18:09:23", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 18:09:23", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1937ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1193 ms}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@2a02e34b{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.3669908347645713886/],AVAILABLE}}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2282ms}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 18:09:24", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 18:09:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 18:09:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 18:09:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 18:09:25", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 18:09:26", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 18:09:26", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 18:09:26", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3ca9d3b2}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@7ed5cc8c}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@286090c{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.628 seconds (JVM running for 5.209)}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 18:09:27", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 18:09:36", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 18:09:36", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 18:09:38", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 18:09:38", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 18:09:38", "service":"cargacep", "thread":"[qtp1195403585-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 18:11:49", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 1268 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 18:11:49", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 18:11:50", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 18:11:50", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 18:11:50", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1887ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1177 ms}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 660000ms}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@5eb5da12{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.1121409869203342355/],AVAILABLE}}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2243ms}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 18:11:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 18:11:53", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 18:11:53", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 18:11:53", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 18:11:53", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:11:53", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 18:11:53", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 18:11:53", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1d988297}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@14580edc}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@72503b19{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.675 seconds (JVM running for 5.228)}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 18:11:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 18:11:57", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 18:11:57", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 18:11:58", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 18:11:58", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 18:11:58", "service":"cargacep", "thread":"[qtp1825983295-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 18:12:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 14688 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 18:12:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 18:12:51", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @1898ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1177 ms}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 660000ms}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@574059d5{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.11255598358248248070/],AVAILABLE}}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2247ms}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 18:12:52", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 18:12:53", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 18:12:53", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 18:12:53", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 18:12:53", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 18:12:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 18:12:54", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 18:12:54", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7369208e}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@7cb38a6a}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@2c991465{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 4.648 seconds (JVM running for 5.218)}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 18:12:55", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 18:13:02", "service":"cargacep", "thread":"[qtp752230403-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 18:13:02", "service":"cargacep", "thread":"[qtp752230403-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 18:38:35", "service":"cargacep", "thread":"[qtp752230403-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 18:38:35", "service":"cargacep", "thread":"[qtp752230403-37]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 18:38:35", "service":"cargacep", "thread":"[qtp752230403-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-15 19:04:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 12584 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-15 19:04:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-15 19:04:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-15 19:04:09", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @2268ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1218 ms}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 660000ms}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1235151c{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.1068943491369522494/],AVAILABLE}}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @2625ms}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-15 19:04:10", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-15 19:04:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-15 19:04:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-15 19:04:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-15 19:04:11", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-15 19:04:12", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-15 19:04:12", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-15 19:04:13", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-15 19:04:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 19:04:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-15 19:04:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-15 19:04:13", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@24e79a4d}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@6ac4f31d}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 1 ms}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@47768e74{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 5.101 seconds (JVM running for 6.033)}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-15 19:04:14", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-15 19:04:23", "service":"cargacep", "thread":"[qtp1612031141-37]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-15 19:04:23", "service":"cargacep", "thread":"[qtp1612031141-37]",
+                "level":"DEBUG", "meta":Mapped to CarcaCepController#findAll()}
+{"timestamp":"2021-06-15 19:32:18", "service":"cargacep", "thread":"[qtp1612031141-37]",
+                "level":"DEBUG", "meta":Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]}
+{"timestamp":"2021-06-15 19:32:18", "service":"cargacep", "thread":"[qtp1612031141-37]",
+                "level":"DEBUG", "meta":Writing [1]}
+{"timestamp":"2021-06-15 19:32:18", "service":"cargacep", "thread":"[qtp1612031141-37]",
+                "level":"DEBUG", "meta":Completed 200 OK}
+{"timestamp":"2021-06-24 16:26:38", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Starting CargacepApplication using Java 11.0.11 on DESKTOP-UQEV9B2 with PID 4756 (C:\Users\cassi\Documents\workspace-eclipse\cargacep\target\classes started by cassi in C:\Users\cassi\Documents\workspace-eclipse\cargacep)}
+{"timestamp":"2021-06-24 16:26:38", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No active profile set, falling back to default profiles: default}
+{"timestamp":"2021-06-24 16:26:38", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Bootstrapping Spring Data JPA repositories in DEFAULT mode.}
+{"timestamp":"2021-06-24 16:26:38", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Logging initialized @2684ms to org.eclipse.jetty.util.log.Slf4jLog}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Server initialized with port: 8080}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 11.0.11+9-b1341.57}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring embedded WebApplicationContext}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Root WebApplicationContext: initialization completed in 1366 ms}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":DefaultSessionIdManager workerName=node0}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":No SessionScavenger set, using defaults}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":node0 Scavenging every 600000ms}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@3a479fda{application,/,[file:///C:/Users/cassi/AppData/Local/Temp/jetty-docbase.8080.12453493029228317486/],AVAILABLE}}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started @3064ms}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000204: Processing PersistenceUnitInfo [name: default]}
+{"timestamp":"2021-06-24 16:26:39", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000412: Hibernate ORM core version 5.4.31.Final}
+{"timestamp":"2021-06-24 16:26:40", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HCANN000001: Hibernate Commons Annotations {5.1.2.Final}}
+{"timestamp":"2021-06-24 16:26:40", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Starting...}
+{"timestamp":"2021-06-24 16:26:40", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HikariPool-1 - Start completed.}
+{"timestamp":"2021-06-24 16:26:40", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect}
+{"timestamp":"2021-06-24 16:26:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]}
+{"timestamp":"2021-06-24 16:26:41", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initialized JPA EntityManagerFactory for persistence unit 'default'}
+{"timestamp":"2021-06-24 16:26:42", "service":"cargacep", "thread":"[main]",
+                "level":"WARN", "meta":spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning}
+{"timestamp":"2021-06-24 16:26:42", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-24 16:26:42", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":3 mappings in 'requestMappingHandlerMapping'}
+{"timestamp":"2021-06-24 16:26:42", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Patterns [/webjars/**, /**] in 'resourceHandlerMapping'}
+{"timestamp":"2021-06-24 16:26:42", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Spring DispatcherServlet 'dispatcherServlet'}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Initializing Servlet 'dispatcherServlet'}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected StandardServletMultipartResolver}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected AcceptHeaderLocaleResolver}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected FixedThemeResolver}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4fc8163}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":Detected org.springframework.web.servlet.support.SessionFlashMapManager@65294247}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"DEBUG", "meta":enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Completed initialization in 2 ms}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started ServerConnector@3e4e8fdf{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Jetty started on port(s) 8080 (http/1.1) with context path '/'}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Started CargacepApplication in 5.313 seconds (JVM running for 6.499)}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state LivenessState changed to CORRECT}
+{"timestamp":"2021-06-24 16:26:43", "service":"cargacep", "thread":"[main]",
+                "level":"INFO", "meta":Application availability state ReadinessState changed to ACCEPTING_TRAFFIC}
+{"timestamp":"2021-06-24 16:27:01", "service":"cargacep", "thread":"[qtp421632334-36]",
+                "level":"DEBUG", "meta":GET "/cargaCep", parameters={}}
+{"timestamp":"2021-06-24 16:27:01", "service":"cargacep", "thread":"[qtp421632334-36]",
+                "level":"DEBUG", "meta":Mapped to com.cassio.cargacep.controllers.CarcaCepController#findAll()}
