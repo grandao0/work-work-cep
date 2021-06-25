@@ -89,7 +89,7 @@ public class CepCidadesService {
 
             cepCidadesFinal.setNomeUf(StringUtils.rightPad(nomeUf, 70, ' '));
 
-            cepCidadesFinal.setNomeLocalidade(cepCidades.getNomeLocalidade().trim());
+            cepCidadesFinal.setNomeLocalidade(StringUtils.rightPad(cepCidades.getNomeLocalidade().trim(), 517, ' '));
 
             listaFormatada.add(cepCidadesFinal);
         }

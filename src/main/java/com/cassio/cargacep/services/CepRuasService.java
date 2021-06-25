@@ -45,7 +45,7 @@ public class CepRuasService {
 
             cepFinal.setNomeLogradouro(StringUtils.rightPad(rua.getNomeRua(), 210, ' '));
 
-            cepFinal.setCodIbgeEstado(StringUtils.rightPad(Long.toString(rua.getBairro().getCidade().getEstado().getIbge()), 6, ' '));
+            cepFinal.setCodIbgeEstado(StringUtils.leftPad(Long.toString(rua.getBairro().getCidade().getEstado().getIbge()), 6, '0'));
 
             cepFinal.setCodIbgeCidade(StringUtils.rightPad(Long.toString(rua.getBairro().getCidade().getIbge()), 48, ' '));
 
